@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+</head>
+<div class="container">
+<body>
+<h1>Mobee</h1>
+<input type="text" id="number" class="number" required placeholder="Email Address"</p>
+<input type="password" id="password" class="password" required placeholder="Password"</p>
+<div>
+<input type="submit" value="Sign In">
+</div>
+<p>
+<a href="">Forgot password?</a> </p>
+<div class=hoz>
+<hr>
+or
+<hr>
+</div>
+<button>Sign up</button>
+</body>
+</div>
+</html>
+<style>
+*{
+box-sizing: box-border;
+}
+. container {
+background-color:#FFF;
+border-radius:8px;
+}
+body {
+font-family: Georgia;
+padding: 5px; margin: 12px
+}
+h1 {
+color: #005B46;
+text-align:center;
+}
+input[type="text"],
+input[type="password"]
+{
+width:90%;
+padding:12px;
+margin:5px;
+background-color:#F4F4FF;
+outline:none;
+font-size:14px;
+border:1px #ccc inset;
+border-radius:5px;
+}
+input[type="submit"]{
+width:98%;
+padding:13px;
+margin:5px;
+background-color:#005B46;
+color:#fff;
+font-size:15px;
+font-weight:600;
+border-radius:5px;
+border:0px none;
+}
+a{
+font-size:15px;
+color:#005B46;
+text-decoration:none;
+}
+p{
+text-align:center;
+justify-items:center;
+}
+.hoz{
+display:flex;}
+hr{
+width:8rem;
+color:grey;}
+button {
+width:70%;
+padding:5px;
+display: block;
+margin:15px auto;
+font-size:17px;
+color:#005B46;
+font-weight:700px;
+background: transparent;
+border:1px #ccc inset;
+border-radius:5px;
+}
+</style>
